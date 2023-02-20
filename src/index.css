@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet');
+@import url('https://cdn.jsdeliver.net/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+:root {
+    --theme-border: #d7d7d7d7;
+    --theme-button: #0F3460;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkslateblue;
+    color: #ffffff;
+}
