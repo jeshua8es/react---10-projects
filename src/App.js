@@ -8,9 +8,6 @@ function App() {
   const info="Random";
   
 
-  
-
-
 
 
   return(
