@@ -7,6 +7,8 @@ import './App.css';
 function App() {
   const info="Random";
 
+  //aqui modifique
+
   return(
     <div className="App">
       <Header />
