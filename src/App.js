@@ -6,6 +6,7 @@ import './App.css';
 
 function App() {
   const info="Random";
+  
 
   return(
     <div className="App">
