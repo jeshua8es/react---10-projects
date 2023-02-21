@@ -1,27 +1,28 @@
-
-
 import { Header } from './components/Header';
 import { TaskList } from './components/TaskList';
 import './App.css';
 
 function App() {
-  const info="Random";
+    const info = "Random";
 
-  //aqui modifique
+    //aqui modifique y sigo modificando
 
-  return(
-    <div className="App">
-      <Header />
-      <TaskList info={info} />
-    </div>
-  );
+    return ( <
+        div className = "App" >
+        <
+        Header / >
+        <
+        TaskList info = { info }
+        /> <
+        /div>
+    );
 }
 export default App;
 
 // // function App() {
-  
+
 //   const [count, setCount] = useState(0);
-  
+
 //    function handleAdd() {    
 //      setCount(count => count + 1);
 //      setCount(count => count + 1);
@@ -49,8 +50,3 @@ export default App;
 // }
 
 // export default App;
-
-
-
-
-
