@@ -5,7 +5,7 @@ import './App.css';
 function App() {
     const info = "Random";
 
-    //aqui modifique y sigo modificando
+    //aqui modifique y sigo modificando y le sigo dando
 
     return ( <
         div className = "App" >
