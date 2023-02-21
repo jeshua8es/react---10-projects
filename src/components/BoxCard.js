@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import "./boxCard.css";
 
 export const BoxCard = ({result, children}) => {
      
@@ -11,5 +12,5 @@ export const BoxCard = ({result, children}) => {
                     <button className='trigger' onClick={()=> setShow(!show)}>Hide</button>
                </div>
           </div>
-  )
+     )
 }
