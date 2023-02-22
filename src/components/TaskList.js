@@ -12,6 +12,15 @@ export const TaskList = ({ xyz }) => {
     ]);
 
     const [show, setShow] = useState(true);
+    
+    const styles= {
+        color: show ? "3D8361": "#be3434", 
+        border:"2px solid", 
+        borderColor: show ? "3D8361": "#be3434",
+        borderRadius: "5px",
+        fontSize: "28px",
+        padding: "20px"
+    }
 
     function handleDelete(id) {
         setTasks(tasks.filter(task => task.id !== id));
@@ -19,7 +28,7 @@ export const TaskList = ({ xyz }) => {
 
     return ( 
         <section className = 'tasklist'>
-            <h1> Task List </h1> 
+            <h1 style={styles}> Task List </h1> 
             <ul>
             <button className = 'trigger'
                     onClick = {() => setShow(!show) } >Toggle</button>{show && tasks.map((task) => ( 
